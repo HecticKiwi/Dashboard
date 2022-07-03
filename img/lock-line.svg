@@ -5,7 +5,7 @@
    height="24"
    version="1.1"
    id="svg6"
-   sodipodi:docname="history-line.svg"
+   sodipodi:docname="lock-line.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -33,10 +33,10 @@
      inkscape:current-layer="svg6" />
   <path
      fill="none"
-     d="M0 0H24V24H0z"
+     d="M0 0h24v24H0z"
      id="path2" />
   <path
-     d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12h2c0 4.418 3.582 8 8 8s8-3.582 8-8-3.582-8-8-8C9.25 4 6.824 5.387 5.385 7.5H8v2H2v-6h2V6c1.824-2.43 4.729-4 8-4zm1 5v4.585l3.243 3.243-1.415 1.415L11 12.413V7h2z"
+     d="M19 10h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1V9a7 7 0 1 1 14 0v1zM5 12v8h14v-8H5zm6 2h2v4h-2v-4zm6-4V9A5 5 0 0 0 7 9v1h10z"
      id="path4"
      style="fill:#ffffff;fill-opacity:1" />
 </svg>

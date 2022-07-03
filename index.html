@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
+  <link rel="shortcut icon" href="img/dashboard-line.svg" type="image/x-icon">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -14,17 +15,14 @@
   <div class="container">
     <div class="header">
       <div class="top">
-        <div class="search">
-          <img src="img/search-line.svg" alt="">
-        </div>
-        <div class="corner">
-          <img src="img/notification-line.svg" alt="">
-          <img src="img/spongebob.jpg" alt="">
-          <h2>Danny Duong</h2>
-        </div>
+        <img src="img/search-line.svg" alt="">
+        <input type="text">
+        <img src="img/notification-line.svg" alt="">
+        <img class="pfp" src="img/spongebob.jpg" alt="">
+        <h2>Danny Duong</h2>
       </div>
       <div class="bottom">
-        <img src="img/spongebob.jpg" alt="">
+        <img class="pfp" src="img/spongebob.jpg" alt="">
         <div class="greeting">
           <p>Hi there,</p>
           <h2>Danny Duong (@HecticKiwi)</h2>
@@ -38,18 +36,49 @@
     </div>
 
     <div class="sidebar">
-      <div class="header">
+      <div class="title">
         <img src="img/dashboard-line.svg" alt="">
         <h2>Dashboard</h2>
       </div>
       <ul class="main">
         <li>
           <img src="img/home-line.svg" alt="">
-          <p>Home</p>
+          <a href="#">Home</a>
         </li>
         <li>
           <img src="img/profile-line.svg" alt="">
-          <p>Profile</p>
+          <a href="#">Profile</a>
+        </li>
+        <li>
+          <img src="img/chat-2-line.svg" alt="">
+          <a href="#">Messages</a>
+        </li>
+        <li>
+          <img src="img/history-line.svg" alt="">
+          <a href="#">History</a>
+        </li>
+        <li>
+          <img src="img/task-line.svg" alt="">
+          <a href="#">Tasks</a>
+        </li>
+        <li>
+          <img src="img/community-line.svg" alt="">
+          <a href="#">Communities</a>
+        </li>
+      </ul>
+
+      <ul class="other">
+        <li>
+          <img src="img/settings-3-line.svg" alt="">
+          <a href="#">Settings</a>
+        </li>
+        <li>
+          <img src="img/question-line.svg" alt="">
+          <a href="#">Support</a>
+        </li>
+        <li>
+          <img src="img/lock-line.svg" alt="">
+          <a href="#">Privacy</a>
         </li>
       </ul>
     </div>
@@ -58,9 +87,11 @@
       <div class="projects">
         <h2>Your Projects</h2>
       </div>
+
       <div class="announcements">
         <h2>Announcements</h2>
       </div>
+      
       <div class="trending">
         <h2>Trending</h2>
       </div>

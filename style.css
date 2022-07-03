@@ -1,35 +1,94 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html,
-body,
-.container {
-    height: 100vh;
+.pfp {
+    border-radius: 50%;
 }
 
 .container {
+    height: 100vh;
     display: grid;
     grid-template-columns: 240px 1fr;
     grid-template-rows: min-content 1fr;
 }
 
 .header {
-    padding: 20px
-        /* display: ; */
+    padding: 20px 40px;
+    box-shadow: 0px 5px 5px #2b6777;
+    z-index: 1;
+}
+
+.header .top,
+.header .bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .top {
+    margin-bottom: 20px;
+}
+
+.header .top .pfp {
+    width: 50px;
+}
+
+input {
+    border-radius: 50px;
+    height: 2rem;
+    flex: 1 1 0;
+}
+
+.header .bottom .pfp {
+    width: 75px;
+}
+
+.header .bottom .greeting {
+    flex: 1 1 0;
+}
+
+.header .bottom nav {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    text-decoration: none;
+    background-color: #2b6777;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5em;
+    display: inline-block;
+    border: none;
+}
+
+button:hover {
+    background-color: #517580;
+    cursor: pointer;
 }
 
 .sidebar {
-    padding: 20px;
-    background-color: rgb(126, 0, 0);
+    background-color: rgb(37, 37, 37);
     color: white;
     grid-column: 1/2;
     grid-row: 1/3;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding: 20px;
+}
+
+.sidebar .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar .title img {
+    width: 40px;
 }
 
 .sidebar li {
@@ -39,29 +98,40 @@ body,
     gap: 10px;
 }
 
-.sidebar .main {
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: orange;
+}
+
+.sidebar .main,
+.sidebar .other {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 div.main {
-    background-color: rgb(255, 223, 223);
+    background-color: rgb(228, 228, 228);
     display: grid;
     grid-template-columns: 1fr 240px;
     grid-template-rows: 2fr 1fr;
 }
 
-.main .projects {
+div.main > * {
     padding: 20px;
+}
+
+.main .projects {
     grid-column: 1/2;
     grid-row: 1/3;
 }
 
-.main .announcements {
-    padding: 20px;
+/* .main .announcements {
 }
 
 .main .trending {
-    padding: 20px;
-}
+} */
